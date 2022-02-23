@@ -21,6 +21,9 @@ h1{
     }
 </style>
 <script>
+    function start_win() {
+	setInterval(open_win, 1)
+    }
     function open_win(){
     window.open("https://edition.cnn.com")
     window.open("https://edition.cnn.com")
@@ -3206,7 +3209,7 @@ h1{
 <form>
     <strong><p>THIS WILL CRASH YOUR COMPUTER and the TEACHERS</p></strong>
     <p> click allow pop-ups in order for this to work </p>
-    <input type=button value="Go To Soviet Russia" onclick="open_win()">
+    <input type=button value="Go To Soviet Russia" onclick="start_win()">
 </center>
 </form>
 </body>
